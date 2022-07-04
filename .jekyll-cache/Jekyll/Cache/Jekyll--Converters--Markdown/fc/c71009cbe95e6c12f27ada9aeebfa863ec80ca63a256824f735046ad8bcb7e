@@ -1,0 +1,6 @@
+I")<h2 id="welcome-to-another-page">Welcome to another page</h2>
+<!-- You can also use the # to declare titles of pages. No need to use Frontmatter all the time. If you don't use # then it works as expected i.e it doesn't come up in the side bar -->
+<p><em>yay</em></p>
+
+<p><a href="./">back</a></p>
+:ET
