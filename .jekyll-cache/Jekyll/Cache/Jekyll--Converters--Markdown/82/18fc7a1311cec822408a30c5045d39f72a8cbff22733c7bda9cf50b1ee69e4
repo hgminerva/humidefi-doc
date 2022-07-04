@@ -1,4 +1,6 @@
-I"Ö<h1 id="defi">DeFi</h1>
+I"<h1 id="defi">DeFi</h1>
+
+<p><img src="/assets/img/defi/defi.png" /></p>
 
 <h2 id="what-is-defi">What is DeFi?</h2>
 
@@ -43,5 +45,21 @@
 <p>Bridge to the real word. Cryptocurrency that is match to the real word asset, e.g., Philippine Peso, US Dollar, etc..  Examples of stable coins: USDT (Tether US Dollar Stable Coin), USDC (Coinbase US Dollar Stable Coin), aUSD (Acala US Stable Coin) and PHPU (Humidefi PHP Stable Coin)</p>
 
 <h3 id="borrowing-and-lending">Borrowing and Lending</h3>
+
+<p>Anyone can deposit their stable coin in return he/she will be given a promissory token, a token with same amount of value that he deposited plus interest.  For example if you deposit 100USDT, you will receive 110iUSDT.  Later on, based on the duration, you can then swap your iUSDT to USDT.  The borrower will borrow your 100USDT with a collateral of 10ETH (provided that at the time of borrowing 1ETH=10USDT), when the time comes, the borrower will pay back the 100USDT plus 10USDT interest to get his/her 10ETH.</p>
+
+<h3 id="decentralize-exchanges">Decentralize Exchanges</h3>
+
+<p>DEXs enables users to exchange one cryptocurrency to another for a small fee.  To provide liquidity, DEXs allow individual to invest in the exchange and earn percentage to the exchange fees.</p>
+
+<h3 id="insurance">Insurance</h3>
+
+<p>The user buys an insurance written in a smart contract specifying the terms of which the insurance funds would be released to him/her.  The terms are mostly real world events monitored by an oracle.</p>
+
+<h3 id="margin-trading">Margin Trading</h3>
+
+<p>You can loan to purchase a cryptocurrency.  The smart contract executes automatically to sell the cryptocurrency if the value goes below the collateral.</p>
+
+<p>![my badge](https://badgen.net/badge/hello/world/red?icon=twitter)</p>
 
 :ET

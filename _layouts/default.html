@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="icon" type="image/png" href="/assets/img/favicon.ico">
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -42,7 +42,7 @@
         <p>Documentation</p>
         {% assign sorted = site.html_pages | sort:"rank" %}
         {% for item in sorted %}
-          {% if item.path != "index.md" and item.path != "defi.md" and item.title and item.rank %}
+          {% if item.path != "index.md" and item.path != "defi.md" and item.path != "web3.md" and item.title and item.rank %}
             <li>
               <a href="{{ item.path | replace:'.md','.html' }}">{{ item.title }}</a>
               <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
@@ -55,6 +55,9 @@
         <p>Additional Information</p>
         <li>
           <a href="defi.html">Decentralize Finance</a>
+        </li>
+        <li>
+          <a href="web3.html">Web3</a>
         </li>
 
       </header>

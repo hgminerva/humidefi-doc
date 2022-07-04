@@ -1,5 +1,7 @@
-I"¤
-<h1 id="defi">DeFi</h1>
+I"
+<h1 id="defi">DeFi</h1>
+
+<p><img src="/assets/img/defi/defi.png" /></p>
 
 <h2 id="what-is-defi">What is DeFi?</h2>
 
@@ -58,5 +60,7 @@
 <h3 id="margin-trading">Margin Trading</h3>
 
 <p>You can loan to purchase a cryptocurrency.  The smart contract executes automatically to sell the cryptocurrency if the value goes below the collateral.</p>
+
+<p>![hgminerva](https://hgminerva.wordpress.com)</p>
 
 :ET
