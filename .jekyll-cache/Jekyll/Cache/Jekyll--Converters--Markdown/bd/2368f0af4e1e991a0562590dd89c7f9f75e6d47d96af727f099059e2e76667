@@ -1,0 +1,26 @@
+I"¬<h1 id="node">Node</h1>
+
+<h3 id="setup">Setup</h3>
+
+<p><strong>Ubuntu 22.04</strong></p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https://github.com/hgminerva/humidefi-node.git
+<span class="nv">$ </span>curl <span class="nt">--proto</span> <span class="s1">'=https'</span> <span class="nt">--tlsv1</span>.2 <span class="nt">-sSf</span> https://sh.rustup.rs | sh
+<span class="nv">$ </span><span class="nb">source</span> <span class="nv">$HOME</span>/.cargo/env
+<span class="nv">$ </span>rustc <span class="nt">--version</span>
+<span class="nv">$ </span>rustup default stable
+<span class="nv">$ </span>rustup update
+<span class="nv">$ </span>rustup update nightly
+<span class="nv">$ </span>rustup target add wasm32-unknown-unknown <span class="nt">--toolchain</span> nightly
+<span class="nv">$ </span>rustup show
+<span class="nv">$ </span>rustup +nightly show
+</code></pre></div></div>
+
+<h3 id="build">Build</h3>
+
+<h3 id="run-dev-node">Run Dev Node</h3>
+
+<h3 id="purge-node">Purge Node</h3>
+
+<h3 id="generate-aura-sr25519-and-grandpa-ed25519-keys">Generate Aura (SR25519) and Grandpa (ED25519) keys</h3>
+:ET

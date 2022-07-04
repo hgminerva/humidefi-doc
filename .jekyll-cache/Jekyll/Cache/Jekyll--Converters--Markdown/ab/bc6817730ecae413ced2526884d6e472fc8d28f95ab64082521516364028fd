@@ -1,0 +1,18 @@
+I"<<h1 id="node">Node</h1>
+
+<h3 id="setup">Setup</h3>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Javascript code with syntax highlighting.
+var fun <span class="o">=</span> <span class="k">function </span>lang<span class="o">(</span>l<span class="o">)</span> <span class="o">{</span>
+  dateformat.i18n <span class="o">=</span> require<span class="o">(</span><span class="s1">'./lang/'</span> + l<span class="o">)</span>
+  <span class="k">return </span><span class="nb">true</span><span class="p">;</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h3 id="build">Build</h3>
+
+<h3 id="run-dev-node">Run Dev Node</h3>
+
+<h3 id="purge-node">Purge Node</h3>
+
+<h3 id="generate-aura-sr25519-and-grandpa-ed25519-keys">Generate Aura (SR25519) and Grandpa (ED25519) keys</h3>
+:ET
